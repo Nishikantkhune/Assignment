@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>School Admission</title>
+    <link rel="stylesheet" href="css/schoolForm.css">
+</head>
+<body>
+<div id="form-div">
+    <h3>School Admission Form</h3>
+    <form onsubmit="return validate()" action="" name="vform">
+        <div id="name_div">
+            <input type="text" id="name" name="name" class="textInput" placeholder="name">
+            <div id="name_error"></div>
+        </div>
+        <div id="lastname_div">
+            <input type="text" id="lastname" name="lastname" class="textInput" placeholder="last name">
+            <div id="lastname_error"></div>
+        </div>
+        <div id="class_div">
+            <input type="text" id="class" name="class" class="textInput" placeholder="class">
+            <div id="class_error"></div>
+        </div>
+        <div id="yearofpassing_div">
+            <input type="number" id="yearofpassing" name="class" class="textInput" placeholder="Year of Passing">
+            <div id="yearofpassing_error"></div>
+        </div>
+        <div id="percentage_div">
+            <input type="number" id="percentage" name="percentage" class="numberInput" placeholder="percentage">
+            <div id="percentage_error"></div>
+        </div>
+
+        <div>
+            <input type="submit" name="register" value="Register" id="btn">
+        </div>
+    </form>
+</div>
+
+<script src="schoolForm.js"></script>
+</body>
+</html>

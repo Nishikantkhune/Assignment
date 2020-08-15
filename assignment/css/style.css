@@ -1,0 +1,45 @@
+body{
+    font-family: Arial,sans-serif;
+
+}
+table , th , td{
+    border: 3px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    padding: 15px;
+    font-size: 20px;
+}
+table{
+    width: 100%;
+}
+.fail{
+    color: red;
+}
+.topper{
+    color: green;
+}
+.subHeader{
+    font-weight:bold;
+    font-style: italic;
+}
+
+* ------------------ Main Navigation ----------------- *
+.main-nav{
+    background-color: black;
+    padding: 5px;
+    box-shadow: 0 0 10px black;
+}
+.main-nav a{
+    color: black;
+    text-decoration: none;
+    padding: 10px 25px;
+    font-size: 16px;
+    display: inline-block;
+}
+.main-nav a:hover{
+    background-color: #778168;
+}
+.main-nav a.active{
+    background-color: #5fc356;
+}
+

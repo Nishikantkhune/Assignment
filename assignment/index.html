@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Student Result Board</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/font-awesome-5.7.2.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- Main Header -->
+<header class="main-header">
+    <h1>Student Result Portal</h1>
+</header>
+
+<!-- Main Navigation -->
+<nav class="main-nav">
+    <div>
+        <a href="index.html" class="active">
+            <i class="fa fa-home"></i> Result</a>
+        <a href="school_Admission.html">
+            <i class="fa fa-school"></i> School Admission</a>
+    </div>
+</nav>
+
+    <!-- Result Table -->
+<table>
+    <thead>
+        <th colspan="6">Student Result Board</th>
+    </thead>
+    <thead class="subHeader">
+    <tr >
+        <th>Student Name</th>
+        <th>Roll Number</th>
+        <th>Subject</th>
+        <th>Marks</th>
+        <th>Total Marks</th>
+        <th>Status</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td rowspan="3">Abhishek</td>
+        <td rowspan="3">KV2017-5A1</td>
+        <td>Maths</td>
+        <td>43</td>
+        <td rowspan="3">110</td>
+        <td rowspan="3">Pass</td>
+    </tr>
+    <tr>
+        <td>English</td>
+        <td>30</td>
+    </tr>
+    <tr>
+        <td>Science</td>
+        <td>37</td>
+    </tr>
+    <tr class="fail">
+        <td rowspan="3">Rajiv</td>
+        <td rowspan="3">KV2017-5A2</td>
+        <td>Maths</td>
+        <td>18</td>
+        <td rowspan="3">84</td>
+        <td rowspan="3">Fail</td>
+    </tr>
+    <tr class="fail">
+        <td>English</td>
+        <td>21</td>
+    </tr>
+    <tr class="fail">
+        <td>Science</td>
+        <td>45</td>
+    </tr>
+
+    <tr class="topper">
+        <td rowspan="3">Zoya</td>
+        <td rowspan="3">KV2017-5A3</td>
+        <td>Maths</td>
+        <td>42</td>
+        <td rowspan="3">123</td>
+        <td rowspan="3">Topper</td>
+    </tr>
+    <tr class="topper">
+        <td>English</td>
+        <td>31</td>
+    </tr>
+    <tr class="topper">
+        <td>Science</td>
+        <td>50</td>
+    </tr>
+
+    </tbody>
+</table>
+
+<script src="schoolForm.js"></script>
+</body>
+</html>
